@@ -1,0 +1,82 @@
+$main-red: #D81617;
+$white: #fff;
+
+@font-face {
+    font-family: 'Din-pro';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/dinpro_bold.otf);
+}
+
+@font-face {
+    font-family: 'Din-pro';
+    font-style: normal;
+    font-weight: 500;
+    src: url(../fonts/dinpro_medium.otf);
+}
+
+@font-face {
+    font-family: 'Din-pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/dinpro.otf);
+}
+
+body {
+    background-color: #F5F5F5;
+    font-family: 'Din-pro';
+    font-weight: 400;
+}
+
+.container {
+    width: 100%;
+    padding: 2.2rem 0.8rem;
+}
+
+// Header
+
+.header {
+    &__top {
+        display: flex;
+        justify-content: space-between;
+    
+
+        &__logo {
+            display: flex;
+            gap: 2.2rem;
+        }
+    }
+
+    .header__bottom {
+        background-color: $main-red;
+        width: 100%;
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+
+                &__search {
+                    display: flex;
+                    gap: 0.8rem;
+                    align-items: center;
+
+                        &__title {
+                            color: $white;
+                            text-transform: uppercase;
+                            font-size: 1.6rem;
+                        }
+                }
+        }
+    }
+
+}
+
+// Main
+
+.banner {
+    background: url('../img/banner.png') no-repeat center center;
+    background-size: cover;
+    height: 40rem;
+    width: 100%;
+}
+
