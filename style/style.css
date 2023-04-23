@@ -27,6 +27,10 @@ body {
   padding: 2.2rem 0.8rem;
 }
 
+.container__main {
+  padding: 2.2rem 1.6rem;
+}
+
 .header__top {
   display: flex;
   justify-content: space-between;
@@ -59,4 +63,122 @@ body {
   background-size: cover;
   height: 40rem;
   width: 100%;
+}
+.banner__content {
+  max-width: 20rem;
+  color: #fff;
+  margin-top: 12rem;
+}
+.banner__content__title {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.banner__content__btn {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  border: 1px solid #fff;
+  border-radius: 0.4rem;
+  display: inline-block;
+  margin-top: 2.4rem;
+  padding: 1.5rem 2.4rem;
+  font-weight: 500;
+}
+.banner__list {
+  display: flex;
+  gap: 0.8rem;
+  justify-content: center;
+  margin-top: 7rem;
+}
+
+.cards {
+  font-family: "Din-pro";
+  font-weight: 400;
+}
+.cards__item {
+  background-color: #fff;
+  margin-bottom: 3.2rem;
+  border: 1px solid #D81617;
+  border-radius: 0.4rem;
+  padding: 2.4rem;
+}
+.cards__item__title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #2C303B;
+  text-transform: uppercase;
+  margin-bottom: 1.7rem;
+}
+.cards__item__descr {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #2C303B;
+}
+.cards__item__btn {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background-color: #D81617;
+  padding: 1.2rem 6rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-top: 2.4rem;
+  border-radius: 0.4rem;
+}
+
+.adss__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3.5rem;
+}
+.adss__top__title {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.adss__top__all {
+  font-size: 1.6rem;
+  color: #D81617;
+  text-transform: uppercase;
+}
+
+.category__list {
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: 500;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2.8rem;
+  row-gap: 0;
+  color: #2C303B;
+}
+
+.adss__bottom {
+  margin-top: 2.4rem;
+}
+.adss__bottom__item {
+  background-color: #fff;
+  min-height: 41.5rem;
+}
+.adss__bottom__item__date {
+  display: inline-block;
+  background-color: #D81617;
+  color: #fff;
+  padding: 0.7rem 1.6rem;
+  border-radius: 0.4rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.adss__bottom__item__content {
+  padding: 0 2.3rem;
+}
+.adss__bottom__item__content__title {
+  margin-top: 1.9rem;
+  font-size: 1.8rem;
+}
+.adss__bottom__item__content__descr {
+  margin-top: 1.6rem;
+  font-size: 1.6rem;
 }/*# sourceMappingURL=style.css.map */
